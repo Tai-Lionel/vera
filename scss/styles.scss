@@ -1,0 +1,33 @@
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('/images/header-background.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.vertical-decoration-left {
+    top: 180px;
+    width: 20px;
+    left: 0;
+}
+
+.xl-text {
+    font-size: 60px;
+}
+
+.navbar {
+    transition: all 0.5s ease-in;
+}
+
+.play-icon-container {
+    top: 45%;
+    left: 45%;
+}
+
+.vertical-decoration-left-detail-1 {
+    width: 20px;
+}
+
+.vertical-decoration-right-detail-2 {
+    width: 20px;
+    right: 0;
+}

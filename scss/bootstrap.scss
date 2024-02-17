@@ -1,0 +1,51 @@
+// Font
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+// Color
+$primary: #fe6b2a;
+$dark: #000;
+$light: #35353a;
+$body-bg: $dark;
+$body-color: #fff;
+
+// Spacing
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4,
+    7: $spacer * 6,
+    8: $spacer * 12,
+    9: $spacer * 14,
+);
+
+// Button
+$button-border-radius: 30px;
+$button-padding-y: 10px;
+$button-padding-x: 25px;
+
+$btn-border-radius: $button-border-radius;
+$btn-border-radius-sm: $button-border-radius;
+$btn-border-radius-lg: $button-border-radius;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-x: $button-padding-x;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-y-lg: $button-padding-y;
+$btn-padding-x-lg: $button-padding-x;
+
+$navbar-toggler-border-radius: 5px;
+
+$form-check-input-bg: white;
+
+// navbar
+$navbar-dark-color: #fff;
+$navbar-nav-link-padding-x: .75rem;
+$navbar-padding-y: $spacer * .75;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
